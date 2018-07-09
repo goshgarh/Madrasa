@@ -1,0 +1,58 @@
+
+
+<div class="contain"> 
+<a href="<%= students_path %>" class="alink">Students</a>
+
+<a href="<%= instructors_path %>" class="alink">Instructors</a>
+
+<a href="<%= groups_path %>" class="alink">Groups</a>
+
+</div>
+<br>
+
+
+
+<div class="contain"> 
+<a href="<%= new_student_path %>" class="alink">Student Sign Up</a>
+
+<a href="<%= new_instructor_path %>" class="alink">Instructor Sign Up</a>
+
+<a href="<%= new_group_path %>" class="alink">New Group</a>
+
+  
+
+</div>
+<br>
+
+
+<!--Slides show -->
+<div class="slideshow-container">
+    <div class="mySlides my_fade active">
+
+     <%= image_tag image_path("slider_1.jpg"),  style: "width:100%" %>
+    <!--  <img src="<= image_path("slider_1.jpg") %>"  style="width:100%">-->
+
+    </div>
+
+    <div class="mySlides my_fade">
+
+     <%= image_tag image_path("slider_2.jpg"),  style: "width:100%" %>
+
+
+    </div>
+
+    <div class="mySlides my_fade">
+
+<!--     <= image_tag image_path("slider_3.jpg"),  style: "width:100%" %>-->
+      <img src="<%= image_path("slider_3.jpg") %>" style="width:100%">
+
+    </div>
+
+    <a class="my_prev">&#10094;</a>
+    <a class="my_next">&#10095;</a>
+
+
+</div>
+<br>
+
+<!--Slides show end -->
