@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is Madrasa - learning portal. Instructors and Students can Sign up/Log In. Then Students can create learning Groups. Instructors can create Courses. 
 
-Things you may want to cover:
 
-* Ruby version
+* Ruby version - 2.4.3
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Rails version - 5.2
